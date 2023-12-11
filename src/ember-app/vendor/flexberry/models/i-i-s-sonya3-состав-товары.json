@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISSonya3СоставТовары",
+  "modelName": "i-i-s-sonya3-состав-товары",
+  "className": "СоставТовары",
+  "nameSpace": "IIS.Sonya3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товары",
+      "relatedTo": "i-i-s-sonya3-товары",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходДенег",
+      "relatedTo": "i-i-s-sonya3-приход-денег",
+      "inverse": "составТовары"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставТоварыE",
+      "modelName": "i-i-s-sonya3-состав-товары",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Товары",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Товары",
+          "name": "товары",
+          "relatedTo": "i-i-s-sonya3-товары",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

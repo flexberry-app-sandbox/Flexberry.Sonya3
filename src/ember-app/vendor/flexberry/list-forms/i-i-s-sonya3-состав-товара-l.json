@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya3-состав-товара-e",
+  "editForm": "i-i-s-sonya3-состав-товара-e",
+  "external": false,
+  "caption": "Состав товара",
+  "name": "IISSonya3СоставТовараL",
+  "className": "СоставТовараL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-состав-товара",
+      "modelProjection": "СоставТовараL"
+    }
+  ]
+}

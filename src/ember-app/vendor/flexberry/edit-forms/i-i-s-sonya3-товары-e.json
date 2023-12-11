@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISSonya3ТоварыE",
+  "className": "ТоварыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-товары",
+      "modelProjection": "ТоварыE"
+    }
+  ]
+}

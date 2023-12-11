@@ -1,0 +1,155 @@
+﻿{
+  "name": "IISSonya3Регистр",
+  "modelName": "i-i-s-sonya3-регистр",
+  "className": "Регистр",
+  "nameSpace": "IIS.Sonya3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходДенег",
+      "relatedTo": "i-i-s-sonya3-приход-денег",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расходДенег",
+      "relatedTo": "i-i-s-sonya3-расход-денег",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрE",
+      "modelName": "i-i-s-sonya3-регистр",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ID",
+          "lookupValueField": "iD",
+          "relationName": "РасходДенег",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "iD",
+              "caption": "ID",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Расход денег",
+          "name": "расходДенег",
+          "relatedTo": "i-i-s-sonya3-расход-денег",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ID",
+          "lookupValueField": "iD",
+          "relationName": "ПриходДенег",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "iD",
+              "caption": "ID",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Приход денег",
+          "name": "приходДенег",
+          "relatedTo": "i-i-s-sonya3-приход-денег",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "РегистрL",
+      "modelName": "i-i-s-sonya3-регистр",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РасходДенег",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "iD",
+              "caption": "ID",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ID",
+          "name": "расходДенег",
+          "relatedTo": "i-i-s-sonya3-расход-денег",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ПриходДенег",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "iD",
+              "caption": "ID",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ID",
+          "name": "приходДенег",
+          "relatedTo": "i-i-s-sonya3-приход-денег",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

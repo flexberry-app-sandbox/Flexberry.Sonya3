@@ -1,0 +1,1 @@
+docker-compose -p sonya3 down

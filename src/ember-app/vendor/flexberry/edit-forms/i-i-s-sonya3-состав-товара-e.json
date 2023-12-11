@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Состав товара",
+  "name": "IISSonya3СоставТовараE",
+  "className": "СоставТовараE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-состав-товара",
+      "modelProjection": "СоставТовараE"
+    }
+  ]
+}

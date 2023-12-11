@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISSonya3МатериалыE",
+  "className": "МатериалыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-материалы",
+      "modelProjection": "МатериалыE"
+    }
+  ]
+}

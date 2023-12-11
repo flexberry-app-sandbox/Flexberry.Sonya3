@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Поставщики",
+  "name": "IISSonya3ПоставщикиE",
+  "className": "ПоставщикиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-поставщики",
+      "modelProjection": "ПоставщикиE"
+    }
+  ]
+}

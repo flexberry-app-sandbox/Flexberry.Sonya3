@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "услуги",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставУслуги.Услуги",
+      "projection": "УслугиL",
+      "detailModelName": "i-i-s-sonya3-состав-услуги"
+    },
+    {
+      "master": "товары",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставТовары.Товары",
+      "projection": "ТоварыL",
+      "detailModelName": "i-i-s-sonya3-состав-товары"
+    }
+  ],
+  "external": false,
+  "caption": "Приход денег",
+  "name": "IISSonya3ПриходДенегE",
+  "className": "ПриходДенегE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-приход-денег",
+      "modelProjection": "ПриходДенегE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya3-регистр-e",
+  "editForm": "i-i-s-sonya3-регистр-e",
+  "external": false,
+  "caption": "Регистр",
+  "name": "IISSonya3РегистрL",
+  "className": "РегистрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-регистр",
+      "modelProjection": "РегистрL"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Sonya3",
+  "applicationTitle": "Sonya3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "sonya3",
+      "caption": "Sonya3",
+      "title": "Sonya3",
+      "children": [
+        {
+          "link": "i-i-s-sonya3-расход-денег-l",
+          "menuName": null,
+          "caption": "Расход денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-состав-товара-l",
+          "menuName": null,
+          "caption": "Состав товара",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-регистр-l",
+          "menuName": null,
+          "caption": "Регистр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-приход-денег-l",
+          "menuName": null,
+          "caption": "Приход денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-поставщики-l",
+          "menuName": null,
+          "caption": "Поставщики",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya3-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

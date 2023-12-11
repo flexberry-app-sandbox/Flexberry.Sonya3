@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Поставщики",
+      "projection": "ПоставщикиL",
+      "detailModelName": null
+    },
+    {
+      "master": "материалы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставМатериалы.Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": "i-i-s-sonya3-состав-материалы"
+    }
+  ],
+  "external": false,
+  "caption": "Расход денег",
+  "name": "IISSonya3РасходДенегE",
+  "className": "РасходДенегE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya3-расход-денег",
+      "modelProjection": "РасходДенегE"
+    }
+  ]
+}
